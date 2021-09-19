@@ -1,0 +1,215 @@
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 991px) {
+    .IO_div,
+    .detail_div,
+    .readyQ_div {
+        margin-top: 30px;
+    }
+}
+
+
+/*Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .readyQ_div {
+        margin-left: 27px;
+        margin-right: 27px;
+    }
+    .detail_div {
+        margin-left: 55px;
+    }
+    .pcb_turn {
+        margin-left: 15px;
+    }
+}
+
+
+/*navebar*/
+
+.navbar {
+    background-color: #03862a;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+.main {
+    margin-top: 80px;
+}
+
+table,
+th,
+td,
+tr {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.table_PCB_IO {
+    height: 250px;
+}
+
+.table_Ready_Q {
+    height: 250px;
+}
+
+.readyQ_table {
+    background-color: #b2c44c;
+}
+
+.tbody_Detail {
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 0.7px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-left: 90px;
+    width: 80%;
+    border: none;
+}
+
+.data {
+    color: #000000;
+}
+
+.tbody_Detail td,
+.tbody_Detail tr {
+    border: none;
+    text-align: left;
+    padding: 12px;
+}
+
+th {
+    color: #ffffff;
+    text-align: center;
+}
+
+.PCB_table th {
+    background-color: #9c7899;
+}
+
+.IO_table th {
+    background-color: #ff6961;
+}
+
+.readyQ_table th {
+    background-color: #719127;
+}
+
+.turnaround_table>thead {
+    background-color: #a58539;
+}
+
+td {
+    line-height: 20px;
+    text-align: center;
+}
+
+
+/*PCB with IO*/
+
+.PCB {
+    background-color: #d09dd5;
+}
+
+.row_PCB_IO {
+    margin: 30px;
+}
+
+.IO {
+    background-color: #f4938a;
+}
+
+.readyQ {
+    background-color: #b2c44c;
+}
+
+
+/*TurnAround witg CPU detail*/
+
+.row_TURN_CPU {
+    margin: 30px;
+    height: 280px;
+}
+
+.TURNAROUND {
+    background-color: #FFB447;
+}
+
+.DETAIL {
+    background-color: #5e93ac;
+}
+
+.table_TURN_CPU {
+    height: 250px;
+}
+
+.nameHead_A {
+    color: #000000;
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn_add {
+    background-color: #114b21;
+    border-color: #139367;
+}
+
+.btn_remove {
+    background-color: #b91819;
+}
+
+.btn_remove,
+.btn_add {
+    margin: 20px 10px 10px 20px;
+}
+
+
+/*Mixed*/
+
+.PCB,
+.IO,
+.TURNAROUND,
+.DETAIL,
+.readyQ {
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.run {
+    background-color: rgb(0, 139, 63);
+    color: white;
+    font-weight: bold;
+}
+
+.wait {
+    background-color: #f8822e;
+    color: white;
+    font-weight: bold;
+}
+
+.terminate {
+    background-color: red;
+}
+
+.IOrun {
+    background-color: rgb(0, 139, 63);
+    color: white;
+    font-weight: bold;
+}
+
+.btnAdd {
+    background-color: #1aa9eb;
+    color: rgb(255, 255, 255);
+}
+
+.btnRemove {
+    background-color: #FA2219;
+    color: rgb(255, 255, 255);
+}
